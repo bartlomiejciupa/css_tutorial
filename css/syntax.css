@@ -1,13 +1,66 @@
-#header {
+/*****************************************
+*
+*Author: Batlomiej Ciupa
+*Date: 26.01.2022
+*
+******************************************/
+
+/* Style all P tags*/
+/* 
+p {
+  font-size: 18px;
+  color: blueviolet;
+}
+
+#header p {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-#header h1 {
+
+h1 {
   font-size: 32px;
-}
+} 
+
+*/
+
+/*TARGETING ELEMENTS /TAGS*/
 
 p {
   font-size: 12px;
+  color: coral;
+}
+
+a {
+  text-decoration: underline;
+  color: blue;
+}
+
+span {
+  text-transform: uppercase;
+  display: block;
+  color: cadetblue;
+}
+
+h1 {
+  font-size: 32;
+}
+
+div {
+  width: 100%;
+  background-color: cornsilk;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+#content-header {
+  font-size: 18px;
+  color: rgb(59, 83, 2);
+}
+
+.deck {
+  color: rgba(215, 43, 238, 0.835);
 }
