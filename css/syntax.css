@@ -27,9 +27,13 @@ h1 {
 
 /*TARGETING ELEMENTS /TAGS*/
 
-p {
-  font-size: 12px;
+/* p {
+  padding: 10px;
+  font-size: 18px;
   color: coral;
+  background-color: khaki;
+  border: lawngreen;
+  size: 50px;
 }
 
 a {
@@ -63,4 +67,60 @@ h2 {
 
 .deck {
   color: rgba(215, 43, 238, 0.835);
+}
+
+span {
+  color: gray;
+}
+body {
+  background-color: honeydew;
+}
+
+#main-content p {
+  color: red;
+} */
+
+/*p{
+  color: red !important;
+}*/
+
+#main-content p {
+  color: green;
+}
+
+/*Descendant selector*/
+#main-content #sub-content p {
+  color: red;
+}
+
+/*Child selector*/
+#main-content > p {
+  text-decoration: underline;
+}
+
+/*Adjacent Selector
+#all-articles h2 +p{}*/
+
+/*Atributte Selector
+ *span[class]{
+  *color:purple}
+   *span[class~="deck"]{
+  *color:purple}
+  a[title="Search engine"]{
+    color: red;
+  }
+  a[href$="pdf"]
+*/
+
+/*Pseudo classes*/
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: orange;
+}
+
+a:visited {
+  color: purple;
 }
