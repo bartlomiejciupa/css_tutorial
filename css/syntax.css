@@ -89,15 +89,14 @@ body {
 }
 
 /*Descendant selector*/
-#main-content #sub-content p {
+/* #main-content #sub-content p {
   color: red;
-}
+} */
 
 /*Child selector*/
-#main-content > p {
+/* #main-content > p {
   text-decoration: underline;
-}
-*/
+} */
 
 /*Adjacent Selector
 #all-articles h2 +p{}*/
@@ -181,7 +180,7 @@ article:nth-of-type(2n + 1) {
   font-style: italic;
 } */
 
-article.featured-content {
+/* article.featured-content {
   color: rosybrown;
 }
 
@@ -190,4 +189,27 @@ div.featured-content {
 }
 article.featured-content {
   color: greenyellow;
+} */
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+p {
+  font: size 16px;
+}
+
+article {
+  font-size: 16px;
+}
+
+article h2 {
+  font-size: 4em; /*mnoży obecną wartość czcionki przez podaną wartość, obecnie 16px*4=84px*/
+}
+
+article p {
+  font-size: 50%; /* zwraca 50% wartość obecnej wielkości czcionki, itp*/
 }
