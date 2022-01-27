@@ -124,3 +124,12 @@ a:active {
 a:visited {
   color: purple;
 }
+
+article p:first-child {
+  font-weight: bold;
+  color: blue;
+}
+
+article p:last-child {
+  color: red;
+}
