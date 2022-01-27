@@ -134,11 +134,30 @@ article p:last-child {
   color: red;
 } */
 
-article p:first-of-type {
+/* article p:first-of-type {
   font-weight: bold;
   color: blueviolet;
 }
 
 article p:last-of-type {
   color: red;
+} */
+
+li:nth-child(1),
+li:nth-child(7) {
+  font-weight: bold;
+  color: blueviolet;
+}
+
+li:nth-child(even) {
+  background: grey;
+}
+li:nth-child(odd) {
+  background: pink;
+}
+li:nth-child(2n + 1) {
+  font-style: italic;
+}
+li:nth-child(3n + 1) {
+  font-style: italic;
 }
