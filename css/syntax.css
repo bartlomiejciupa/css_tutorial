@@ -84,7 +84,7 @@ body {
   color: red !important;
 }*/
 
-#main-content p {
+/* #main-content p {
   color: green;
 }
 
@@ -97,6 +97,7 @@ body {
 #main-content > p {
   text-decoration: underline;
 }
+*/
 
 /*Adjacent Selector
 #all-articles h2 +p{}*/
@@ -113,6 +114,7 @@ body {
 */
 
 /*Pseudo classes*/
+/* 
 a:hover {
   color: red;
 }
@@ -123,7 +125,7 @@ a:active {
 
 a:visited {
   color: purple;
-}
+} */
 
 /* article p:first-child {
   font-weight: bold;
@@ -162,7 +164,7 @@ li:nth-child(3n + 1) {
   font-style: italic;
 } */
 
-article:nth-child(2) {
+/* article:nth-child(2) {
   background-color: indianred;
 }
 
@@ -177,4 +179,15 @@ article:nth-of-type(odd) {
 article:nth-of-type(2n + 1) {
   display: justify;
   font-style: italic;
+} */
+
+article.featured-content {
+  color: rosybrown;
+}
+
+div.featured-content {
+  background: steelblue;
+}
+article.featured-content {
+  color: greenyellow;
 }
