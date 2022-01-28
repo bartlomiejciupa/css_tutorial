@@ -190,6 +190,7 @@ div.featured-content {
 article.featured-content {
   color: greenyellow;
 } */
+/* 
 h1 {
   font-size: 48px;
 }
@@ -208,8 +209,18 @@ article {
 
 article h2 {
   font-size: 4em; /*mnoży obecną wartość czcionki przez podaną wartość, obecnie 16px*4=84px*/
-}
+/*}
 
 article p {
   font-size: 50%; /* zwraca 50% wartość obecnej wielkości czcionki, itp*/
+/*} */
+
+article h2,
+article p {
+  font-family: arial; /*wyświetli czcionkę jeśli jest zainstalowana w przeglądarce odbiorcy, jeśli nie, wyświetli inną domyślną*/
+}
+
+article h2,
+article p {
+  font-family: ariall, "Timess New Roman"; /*wyświetli czcionkę 'Timess New Roman' jeśli ariall nie jest zainstalowana w przeglądarce odbiorcy*/
 }
