@@ -214,13 +214,26 @@ article h2 {
 article p {
   font-size: 50%; /* zwraca 50% wartość obecnej wielkości czcionki, itp*/
 /*} */
-
+/*
 article h2,
 article p {
   font-family: arial; /*wyświetli czcionkę jeśli jest zainstalowana w przeglądarce odbiorcy, jeśli nie, wyświetli inną domyślną*/
-}
+/*}
 
 article h2,
 article p {
   font-family: ariall, "Timess New Roman"; /*wyświetli czcionkę 'Timess New Roman' jeśli ariall nie jest zainstalowana w przeglądarce odbiorcy*/
+/*}
+
+/*
+a {
+  text-decoration: none;
 }
+
+article {
+  text-decoration: overline;
+}
+
+a {
+  text-decoration: inherit;
+}*/
