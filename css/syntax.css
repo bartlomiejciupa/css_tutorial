@@ -276,7 +276,7 @@ body > p {
 #header {
   background: url(../img/P1100776.JPG);
 } */
-
+/* 
 .welcome {
   font-weight: bolder;
   font-size: 34px;
@@ -293,4 +293,20 @@ a:hover {
   background-color: coral;
   text-decoration: underline;
   font-size: 40px;
+} */
+
+#main-content > p {
+  font-size: 24px;
+  word-spacing: 4px;
+  line-height: 1.5em;
+}
+
+#header :nth-child(3) {
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+#header :last-child {
+  font-size: 48px;
+  text-transform: uppercase;
 }
