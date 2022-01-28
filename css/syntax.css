@@ -251,7 +251,7 @@ p {
   font-weight: lighter;
   font-family: "Yu Gothic";
 } */
-
+/* 
 #header p {
   text-transform: uppercase;
 }
@@ -262,4 +262,17 @@ body {
 
 body > p {
   text-transform: none;
+} */
+
+#header h1 {
+  color: chocolate;
+}
+
+#header h2 {
+  color: #567398;
+  background-color: antiquewhite;
+}
+
+#header {
+  background: url(../img/P1100776.JPG);
 }
