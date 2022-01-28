@@ -251,3 +251,15 @@ p {
   font-weight: lighter;
   font-family: "Yu Gothic";
 } */
+
+#header p {
+  text-transform: uppercase;
+}
+
+body {
+  text-transform: capitalize;
+}
+
+body > p {
+  text-transform: none;
+}
