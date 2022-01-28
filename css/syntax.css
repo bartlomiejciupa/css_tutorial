@@ -264,7 +264,7 @@ body > p {
   text-transform: none;
 } */
 
-#header h1 {
+/* #header h1 {
   color: chocolate;
 }
 
@@ -275,4 +275,22 @@ body > p {
 
 #header {
   background: url(../img/P1100776.JPG);
+} */
+
+.welcome {
+  font-weight: bolder;
+  font-size: 34px;
+}
+
+a {
+  color: crimson;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: blueviolet;
+  background-color: coral;
+  text-decoration: underline;
+  font-size: 40px;
 }
