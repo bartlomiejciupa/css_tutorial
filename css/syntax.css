@@ -401,7 +401,7 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center;
 } */
-
+/* 
 #banner {
   background-color: #606060;
   width: 500px;
@@ -410,4 +410,35 @@ a:hover {
   background-repeat: repeat-y;
   background-position: top right, top left;
   background-size: 50%, 50%;
+} */
+
+#banner {
+  width: 500px;
+  height: 400px;
+  background-color: #cadc79;
+}
+
+.button {
+  display: block;
+  width: 1000px;
+  padding: 12px;
+  border: 1px solid #777;
+  font-family: Impact;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 4px;
+  background: #d5aadd;
+  background: -moz-linear-gradient(left, #d5aadd 10%, #77aaaa 100%);
+  background: -webkit-linear-gradient(left, #d5aadd 10%, #77aaaa 100%);
+  background: linear-gradient(left, #d5aadd 10%, #77aaaa 100%);
+}
+
+.button:hover {
+  background: #aadddd;
+  background: -moz-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
+  background: -webkit-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
+  background: linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
 }
